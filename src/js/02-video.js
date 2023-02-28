@@ -19,7 +19,7 @@ const parseTime = JSON.parse(saveTime);
 
 const currentSec = Math.round(saveTime);
 
-console.log(`Current second is ${currentSec}`);
+console.log(`Current second is ${currentSec}`); 
 
 player.setCurrentTime(parseTime).then(function(seconds) {
     // seconds = the actual time that the player seeked to
